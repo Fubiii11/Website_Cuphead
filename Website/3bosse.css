@@ -1,0 +1,70 @@
+body{
+    background-color:lightblue;
+}
+.container{
+    display: flex;
+    margin-top: 50px;
+}
+.text{
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin:0 5% 0 8px;
+    
+}
+.tabelle{
+    width: 35%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 3%;
+        
+}
+table{
+    border: solid black 2px;
+    border-collapse: collapse;
+    max-width: 100%;
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+th{
+    text-align: center;
+    background-color: white;
+}
+.phasen{
+    list-style-type: none;
+}
+#button1:hover{
+    background-color: white;
+}
+#button2:hover{
+    background-color: white;
+}
+#button3:hover{
+    background-color: white;
+}
+#button1, #button2, #button3{
+    font-size: 2.5vh;
+    background: none;
+    float: left;
+    margin:0 6% 0 6% ;
+    cursor:pointer;
+    
+}  
+/*https://stackoverflow.com/questions/8762201/how-to-get-the-cursor-to-change-to-the-hand-when-hovering-a-button-tag*/
+#button1{
+    background-color: white;
+}  
+
+br{
+    margin: 20px 0;
+}
+
+.bildercontainer{
+    text-align: center;
+}
+#image{
+    width: 30vh ;
+}

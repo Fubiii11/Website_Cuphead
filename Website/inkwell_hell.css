@@ -1,0 +1,92 @@
+body{
+    background-color: #1b1a21;
+}
+
+
+.titel_text{
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 0px rgb(255, 0, 0);
+    color: white;
+}
+/*https://www.elmastudio.de/hilfreiche-css-tipps-zur-gestaltung-von-text-teil-2/*/
+.casino{
+    text-align: center;
+}
+.text_top{
+    margin-top: 60px;
+}
+.text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 100px 0 100px;
+}
+.container{
+    display: flex;
+    margin: 100px 0 0 0;    
+}
+.right{
+    text-align: center;
+    flex: 50%;
+}
+.left{
+    text-align: center;
+    flex: 50%;   
+}
+.line {
+    width: 1px;
+    background-color: lightgrey;    
+  }
+
+.titel_liste{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 50px;
+}
+
+h1.grossertext{   
+    font-size: 28px;
+  }
+  .title_unten{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.container2 {
+    text-align: center;
+    margin: 90px 0 0 0;
+}
+
+#image {
+    width: 20%;
+}
+
+#quote {
+    margin-top: 20px;
+}
+
+button {
+    margin: 20px 20px 0px 20px;
+    font-size: 24px;
+    padding: 5px 60px 5px 60px;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    
+
+}
+button:hover{
+    
+    transform: scale(1.2);
+    background-color: #ffd217;
+}
+  

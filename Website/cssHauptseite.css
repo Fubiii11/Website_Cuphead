@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+.main-container {
+  
+  text-align: center;
+  height: 100%;
+  background-color: #ffd217;
+  width: 90%;
+  margin: auto;
+
+}
+
+
+.text {
+  margin: 0 10% 0% 10%;
+  color: black;
+  font-size: 25px;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; 
+  
+}
+
+
+
+
+
+/* Hier wird ein container erstellt der eine Gelbe umrandung hat. Darin befindet
+sich die Liste mit den Verschidenen Links.*/
+.bottem-container {
+  
+  background-color: black;
+  border: 10px solid #ffd217;
+  text-align: center;  
+  margin: 10px 0px;
+}
+
+
+#alle-knöpfe{
+  display: flex;
+  text-align: center;
+}
+
+button{
+  
+  background-color: #000000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;  
+  border: solid #ffd217 5px;
+  font-size: 40px;
+  margin: 20px 2%  20px 2%;
+
+}
+a{
+  text-decoration: none;
+  color: #ffd217;
+}
+button:hover{
+  
+  background: rgb(255,210,23,0.25);
+  ;
+  
+}
+
+
+
+
+
+/*https://de.w3docs.com/snippets/css/wie-kann-man-die-linkfarbe-mit-css-andern.html
+Website für Linkgestaltung*/
+
+
+
+
+
+
